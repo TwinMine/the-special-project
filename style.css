@@ -11,6 +11,10 @@ body{
     background-color: #362222;
 }
 
+nav>div>i{
+    font-size: 40px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -36,6 +40,10 @@ li{
     border-radius: 20px;
 }
 
+a{
+    font-family: Creepster;
+}
+
 .nav{
     display: none;
     color: honeydew;
@@ -49,7 +57,7 @@ li{
 }
 
 .nav>ul>li>a:hover{
-    background-color: #ac0000;;
+    background-color: #dd0000;
 }
 
 .nav>ul>li>a{
@@ -66,11 +74,13 @@ header{
 
 h1{
     font-family: Creepster;
-    color: rgb(158, 4, 4);
+    background-color: #949292;
+    color: rgb(158, 0, 0);
     display: flex;
     justify-content: center;
     padding-top: 100px;
     font-size: 4em;
+    margin: 0;
 }
 
 header>img{
@@ -81,14 +91,17 @@ header>img{
 /* Main */
 
 .mainhead{
-    background-color: #423F3E;
-    color: rgb(158, 4, 4);
+    background-color: #949292;
+    color: rgb(158, 0, 0);
     font-family: Creepster;
     width: fit-content;
     margin: 0 auto;
     border-radius: 100px;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 
 /* Footer */
