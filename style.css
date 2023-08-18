@@ -339,9 +339,16 @@ aside>div>div>div>div>img{
     height: 500px;
 }
 
-.btn btn-primary{
-    width:  400px;
+.card-body{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
 }
+
+.card-body>a{
+    width: fit-content;
+}
+
 
 /* Footer */
 
