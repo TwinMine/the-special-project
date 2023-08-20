@@ -124,6 +124,8 @@ a{
     border-radius: 100px;
 }
 
+/* Header */
+
 header{
     background-color: #423F3E;
 }
@@ -132,10 +134,39 @@ h1{
     font-family: Creepster;
     background-color: #cccaca;
     color: rgb(158, 0, 0);
+    text-align: center;
     display: flex;
     justify-content: center;
     font-size: 4em;
     margin: 0;
+}
+
+.h1{
+    font-family: Creepster;
+    background-color: #cccaca;
+    color: rgb(158, 0, 0);
+    font-size: 1em;
+    margin: 0;
+    animation-name: h1;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-duration: 2.3s;
+    padding: 5px;  
+}
+
+@keyframes h1{
+    0%{
+        color: rgb(158, 0, 0);
+        text-shadow: 0px 0px 15px rgb(158, 0, 0);
+    }
+
+    18%{
+        color: #d3d2d2;
+    }
+
+    100%{
+        color: #d4d4d4;
+    }
 }
 
 header>img{
@@ -157,9 +188,13 @@ header>img{
     margin-bottom: 10px;
 }
 
+.carouselExampleCaptions{
+    width: 50vw !important;
+}
+
 .d-block{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .text-block{
@@ -167,6 +202,23 @@ header>img{
     color: rgb(158, 0, 0);
     font-family: By the way;
     padding: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.text-block>p:nth-child(even){
+    color: rgb(0, 38, 255);
+}
+
+.text-block>p>a{
+    color: orangered;
+    font-size: 30px;
+}
+
+.text-block>p>a:hover{
+    color: #2B2B2B;
 }
 
 .text-block>p{
@@ -232,7 +284,6 @@ span{
 
 .anmeldung{
     background-color: #423F3E;
-    border-radius: 20px;
     color: white;
     font-family: By the way;
     display: flex;
@@ -338,6 +389,7 @@ aside{
 aside>div>img,
 aside>div>div>div>div>img{
     height: 250px;
+    border-radius: 5px;
 }
 
 .card>div>h5,
@@ -351,7 +403,7 @@ aside>div>div>div>div>img{
 .card{
     background-color: black;
     height: 500px;
-    margin-top: 10px;
+    margin-top: 28px;
 }
 
 .card-body{
@@ -382,6 +434,7 @@ footer{
   background-color: #423F3E;
   text-align: right;
   font-family: Creepster;
+  color: #cccaca;
 }
 
 footer>i{
