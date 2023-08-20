@@ -35,6 +35,20 @@ nav{
     display: flex;
 }
 
+h4{
+    font-family: Creepster;
+    background-color: #cccaca;
+    color: rgb(158, 0, 0);
+    height: 100%;
+    width: 30vw;
+    display: none;
+    border-radius: 35px;
+    font-size: 120%; 
+    padding: 5px;
+    animation: animate 4s ease-in-out infinite alternate;
+    margin: 0;
+}
+
 h6{
     font-family: Creepster;
     background-color: #cccaca;
@@ -70,7 +84,7 @@ li{
 }
 
 .dropdown{
-    background-color: red !important;
+    background-color: green;
     border-radius: 20px;
 }
 
@@ -337,6 +351,7 @@ aside>div>div>div>div>img{
 .card{
     background-color: black;
     height: 500px;
+    margin-top: 10px;
 }
 
 .card-body{
@@ -347,6 +362,17 @@ aside>div>div>div>div>img{
 
 .card-body>a{
     width: fit-content;
+}
+
+.btn{
+    background-color: yellow;
+    
+}
+
+.btn:hover{
+    background-color: #eeeeee;
+    font-family: Creepster;
+    box-shadow: inset 4px 4px 4px 4px white;
 }
 
 
@@ -360,6 +386,8 @@ footer{
 
 footer>i{
     cursor: pointer;
+    font-size: 30px;
+    margin-right: 20px;
 }
 
 footer>i:last-child{
@@ -367,4 +395,9 @@ footer>i:last-child{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    margin-right: 10px;
+}
+
+footer>h5{
+    margin-right: 10px;
 }

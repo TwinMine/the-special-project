@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/914b0f1a97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
     <!-- Nav-bar-Bereich -->
     <nav>
         <div>
@@ -18,6 +18,10 @@
               Nichts für schwache Nerven!
             </h6>
 
+            <h4 class="d-lg-flex justify-content-lg-center align-items-center">
+              Nichts für schwache Nerven!
+            </h4>
+
         <div class="d-md-none dropdown">
             <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-sitemap" style="color: #000000;"></i>
@@ -26,21 +30,22 @@
             
           
             <ul class="dropdown-menu">
-             <li><a class="dropdown-item" href="#">Home</a></li>
-              <li><a class="dropdown-item" href="#">Die Jäger</a></li> 
-              <li><a class="dropdown-item" href="#">Anmelden</a></li>
-              <li><a class="dropdown-item" href="#">Kontakt</a></li>
-              <li><a class="dropdown-item" href="#">Unsere Rooms</a></li>
+             <li><a class="dropdown-item" href="#top">Home</a></li>
+             <li><a class="dropdown-item" href="#rooms">Unsere Rooms</a></li>
+              <li><a class="dropdown-item" href="#singin">Anmelden</a></li>
+              <li><a class="dropdown-item" href="#hunter">Die Jäger</a></li> 
+              <li><a class="dropdown-item" href="contact/contact.html">Kontakt</a></li>
+              
               
             </ul>
           </div>
     <div class="nav d-md-flex">
         <ul class="navbar">
-            <li><a href="">Home</a></li>
-            <li><a href="">Die Jäger</a></li>
-            <li><a href="">Anmelden</a></li>
-            <li><a href="">Kontakt</a></li>
-            <li><a href="">Unsere Rooms</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#rooms">Unsere Rooms</a></li>
+            <li><a href="#singin">Anmelden</a></li>
+            <li><a href="#hunter">Die Jägert</a></li>
+            <li><a href="contact/contact.html">Kontakt</a></li>
         </ul>
     </div>
     </nav>
@@ -52,7 +57,7 @@
     </header>
 
     <!-- Main-Bereich -->
-    <main>
+    <main id="rooms">
         <h2 class="mainhead">Unsere gruseligen Kammern</h2>
 
           <div id="carouselExampleCaptions" class="carousel slide">
@@ -109,7 +114,7 @@
             <p> A: Das finden Sie heraus wenn Sie sich in unsere Rooms reinwagen!</p>
                 
                 
-            <p>  F: Kann man sterben ...?</p>
+            <p id="singin" >  F: Kann man sterben ...?</p>
             <p>  A: FINDEN SIE ES HERAUS!</p>
           </div>
 
@@ -119,24 +124,24 @@
             </div>
 
               <div class="textbox2">
-              <span class="textfour">Bist</span> <span class="textfive">du </span><span class="textsix">stark </span><span class="textseven">genug?</span>
+              <spanclass="textfour">Bist</spanclass=> <span class="textfive">du </span><span class="textsix">stark </span><span class="textseven">genug?</span>
             </div>
             <div class="buttoncontainer">
-              <a href=""><div class="button">Alleine</div></a>
-              <a href=""><div class="button1">Mit Freunde</div></a>
+              <a href="allein/allein.html"><div class="button">Alleine</div></a>
+              <a href="freunde/freunde.html"><div class="button1">Mit Freunde</div></a>
               
             </div>
           </div>
     </main>
 
     <!-- Aside-Bereich -->
-    <aside class="d-flex justify-content-lg-between flex-lg-row">
+    <aside id="hunter" class="d-flex justify-content-lg-between flex-lg-row">
         <div class="card" style="width: 18rem;">
             <img src="images/wp2915742-disturbed-freddy-krueger-wallpaper.jpg" alt="Freddy Krüger">
             <div class="card-body">
               <h5 class="card-title">Freddy Krueger</h5>
               <p class="card-text">Von der Gesellschaft verachtet und abgelehnt... Jagt er nun seine Opfer im Traum und lässt sie lange leiden bis der Tod sie holen kommt!</p>
-              <a href="https://anightmareonelmstreet.fandom.com/wiki/Freddy_Krueger_(A_Nightmare_on_Elm_Street_film_series)" target="_blank" class="btn btn-primary">Mehr hier!</a>
+              <a href="https://anightmareonelmstreet.fandom.com/wiki/Freddy_Krueger_(A_Nightmare_on_Elm_Street_film_series)" target="_blank" class="btn">Mehr hier!</a>
             </div>
           </div>
 
@@ -146,7 +151,7 @@
             <div class="card-body">
               <h5 class="card-title">Jason Voorhees</h5>
               <p class="card-text">Als Kind gemobbt... Seine Mutter verloren... Und nun auf der Jagd Menschen auf jede erdenkliche Weise zu ermorden!</p>
-              <a href="https://fridaythe13th.fandom.com/wiki/Jason_Voorhees" target="_blank" class="btn btn-primary">Mehr hier!</a>
+              <a href="https://fridaythe13th.fandom.com/wiki/Jason_Voorhees" target="_blank" class="btn">Mehr hier!</a>
             </div>
           </div>
 
@@ -155,7 +160,7 @@
             <div class="card-body">
               <h5 class="card-title">John Kramer</h5>
               <p class="card-text">Das der Schatten des Todes über ihn schwebt, hält ihn nicht davon ab andere Menschen zur Rechtenschaft zu ziehen!</p>
-              <a href="https://sawfilms.fandom.com/wiki/John_Kramer" target="_blank" class="btn btn-primary">Mehr hier!</a>
+              <a href="https://sawfilms.fandom.com/wiki/John_Kramer" target="_blank" class="btn">Mehr hier!</a>
             </div>
           </div>
 
@@ -190,7 +195,7 @@
               <div class="card-body">
               <h5 class="card-title">Songebob und Patrick</h5>
               <p class="card-text">Auf dem ersten Blick sehen diese beiden Meerestiere harmlos aus... Doch das zweite Bild offenbart die dunkle Seite!</p>
-              <a href="https://villainsfanon.fandom.com/wiki/Faceless_SpongeBob_and_Patrick" target="_blank" class="btn btn-primary">Mehr hier!</a>
+              <a href="https://villainsfanon.fandom.com/wiki/Faceless_SpongeBob_and_Patrick" target="_blank" class="btn">Mehr hier!</a>
             </div>
             </div>
 
@@ -199,7 +204,7 @@
     </aside>
  <div>Animation</div>
     <!-- Footer-Bereich -->
-    <footer>
+    <footer class="text-lg-center">
         <h5>Copyright 2023</h5>
         <i class="fa-brands fa-whatsapp" style="color: #00f004;"></i>
         <i class="fa-brands fa-facebook" style="color: #005eff;"></i>
