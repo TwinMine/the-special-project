@@ -72,7 +72,7 @@ h6{
     }
     
     100% {
-		 color: blueviolet; 
+        color: rgb(158, 0, 0);
 	}
 }
 
@@ -214,12 +214,12 @@ header>img{
 }
 
 .text-block>p>a{
-    color: orangered;
+    color: #b828b8;
     font-size: 30px;
 }
 
 .text-block>p>a:hover{
-    color: #2B2B2B;
+    color: rgb(5, 151, 0);
 }
 
 .text-block>p{
@@ -305,6 +305,7 @@ span{
     padding: 10px;
     cursor: pointer;
     border-radius: 20px;
+    color: rgb(158, 0, 0);
 }
 
 .button1{
@@ -314,6 +315,7 @@ span{
     padding: 10px;
     cursor: pointer;
     border-radius: 20px;
+    color: rgb(158, 0, 0);
 }
 
 .button:hover,
