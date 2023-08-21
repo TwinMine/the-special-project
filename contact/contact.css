@@ -11,9 +11,8 @@ body{
 }
 
 .top{
-    position: absolute;
+    position: fixed;
     left: 0;
-    width: 500px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -21,6 +20,10 @@ body{
     background-color: white;
     border-radius: 30px;
     border: 6px solid black;
+}
+
+.bottom{
+    display: none;
 }
 
 .top:hover{
@@ -45,8 +48,8 @@ a:hover{
     width: 100vw;
 }
 
-h1{
-    font-size: 40px;
+.top{
+    font-size: 30px;
 }
 
 p{
@@ -60,6 +63,28 @@ p:nth-child(even){
 }
 
 img{
-    width: 100%;
+    width: 100vw;
     height: 62vh;
+}
+
+@media only screen and (max-width: 964px){
+    .top{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 964px){
+    .bottom{
+    position: fixed;
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: white;
+    border-radius: 30px;
+    border: 6px solid black;
+    padding: 5px;
+}
 }
