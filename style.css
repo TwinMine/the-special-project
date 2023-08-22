@@ -85,7 +85,7 @@ li{
 }
 
 .dropdown{
-    background-color: green;
+    background-color: #cccaca;
     border-radius: 20px;
 }
 
@@ -126,10 +126,6 @@ a{
 }
 
 /* Header */
-
-header{
-    background-color: #423F3E;
-}
 
 h1{
     font-family: Creepster;
@@ -173,6 +169,7 @@ h1{
 header>img{
     height: 400px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 /* Main */
@@ -196,6 +193,7 @@ header>img{
 .d-block{
     width: 100%;
     height: 80vh;
+    margin-top: 10px;
 }
 
 .text-block{
@@ -207,6 +205,8 @@ header>img{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .text-block>p:nth-child(even){
@@ -290,6 +290,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
 }
 
 .buttoncontainer{
